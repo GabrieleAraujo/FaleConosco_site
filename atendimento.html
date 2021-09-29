@@ -1,0 +1,115 @@
+ <html>
+ <head>
+ <meta charset="utf-8">
+ <title>Ótica - Abrindo seus olhos para o mundo</title>
+	
+ <link rel="stylesheet" href="style.css" type="text/css" media="screen">	
+
+ </head>
+
+ <body>	
+
+ <header> 
+
+<div><h1>Primeiro Site</h1>
+</div>
+ </header>
+
+<!--Outras abas--> 	
+<nav>		
+<ul>
+			
+<li><a href="inicio.html">Início</a></li>
+
+<li><a href="grau.html">Óculos de Grau</a></li>
+			
+<li><a href="sol.html">Óculos de Sol</a></li>
+			
+<li><a href="lentes.html">Lentes de Contato</a></li>
+			
+<li class="selected"><a href="atendimento.html">Atendimento</a></li>
+		
+</ul>
+	
+</nav>
+
+<!--Script--> 
+<script type="text/javascript" src="javascript.js"></script>
+<form action="#" method="post" name="form" onSubmit="return validacao();">  
+
+<!--Informações-->
+ <section id="destaque">
+ <header> 
+ <h2> Fale Conosco</h2>
+ </header>
+ </section>
+
+ <section id="conteudo">	    
+ <table width="309" height="400"  cellpadding="0" >
+ <form action="filtro.php" method="POST" enctype="multipart/form-data">
+ <tr>
+ <td>  <h2> Nome: </h2>  </td>
+ <td> <input type="text" name="nome" size="60"  />  </td>
+ </tr>
+
+ <tr>
+ <td> <h2> E-mail:  </h2> </td>
+ <td> <input type="text" name="email" size="60" />   </td>
+ </tr>
+
+ <tr>
+ <td>  <h2> Telefone: </h2>  </td>
+ <td> <input type="text" name="telefone" size="60"/>   </td>
+ </tr>
+
+ <tr>
+ <td> <h2>Endereço: </h2>  </td>
+ <td> <input type="text" name="enderecodaloja" size="60" /> </td>
+ </tr>
+
+ <tr>
+ <td> <h2>Cidade: </h2>  </td>
+ <td> <input type="text" name="cidadedaloja" size="60" /> </td>
+ </tr>
+ 
+ <tr>
+ <td> <h2>Estado: </h2>  </td>
+ <td> 
+ <select name="filtro">
+ <option value="estado"> SP </option>
+ <option value="estado"> AP </option>
+ <option value="estado"> PA </option>
+ <option value="estado"> BR </option>
+ <option value="estado"> MG </option>
+ </td>
+ </tr>
+
+ <tr>
+ <td> <h2>Mensagem:</h2>   </td>
+ <td>
+ <textarea name="message" rows="7" cols="60">
+ </textarea> <br>
+ <input value="Enviar" type="submit" style="width:90;height:30"/>&nbsp; &nbsp; &nbsp;  
+ <input value="Limpar" type="reset"  style="width:90;height:30"/> </td>
+ </tr>
+ </table>
+ </form>
+ </section>
+
+
+<footer>
+
+<section>
+<h3>Sobre</h3>
+<p>Oferecemos pra você o que há de melhor no mercado, lentes e armações com procedência e garantia de fábrica, nossa equipe está preparada para lhe atende esclarecendo suas dúvidas.</p>
+ </section> 
+
+<section>
+Horário de Funcionamento: Segunda a Sexta - de 08:00 às 18:00<br> Sábado - de 8:00 às 13:00 
+ </section>    
+
+</footer>
+
+
+</body>
+</html>
